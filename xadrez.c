@@ -29,7 +29,7 @@ int main() {
         printf("Direita (%d)\n", i);
     }
 
-    printf("\n");
+    printf("Torre moveu %d casas. \n\n", casasTorre);
 
     // ==================================
     // Movimento do Bispo (usando while)
@@ -41,7 +41,8 @@ int main() {
         j++;
     }
 
-    printf("\n");
+    printf("Bispo moveu %d casas. \n\n", casasBispo);
+
     // ==================================
     // Movimento da Rainha (usando do-while)
     // ==================================
@@ -52,7 +53,7 @@ int main() {
         k++;
     } while (k <= casasRainha);
 
-    printf("\n");
+    printf("Rainha moveu %d casas. \n\n", casasRainha);
 
     // ==================================
     // Movimento do Cavalo (usando while e for)
@@ -72,7 +73,7 @@ int main() {
             }
         }
     }   
-
+    printf("Cavalo moveu em L: %d casas para baixo e %d casa para esquerda. \n\n", casasBaixo, casasEsquerda);
     printf("\nFim da Simulação de Movimentos de Xadrez.\n");
 
     return 0;
