@@ -21,7 +21,13 @@ int main() {
     int casasBaixo = 2; // Movimento do Cavalo na vertical
     int casasEsquerda = 1; // Movimento do Cavalo na horizontal
     
+    // Movimento da Torre (usando for)
+    printf("Movimento da Torre:\n");
+    for (int i = 1; i <= casasTorre; i++) { 
+        printf("Direita (%d)\n", i);
+    }
 
+    printf("\n");
 
     return 0;
 }
