@@ -32,6 +32,28 @@ int main() {
     printf("\n");
 
     // ==================================
+    // Movimento do Bispo (usando while)
+    // ==================================
+    printf("=== Movimento do Bispo ===\n");
+    int j = 1;
+    while (j <= casasBispo) {
+        printf("Cima, Direita (%d)\n", j);
+        j++;
+    }
+
+    printf("\n");
+    // ==================================
+    // Movimento da Rainha (usando do-while)
+    // ==================================
+    int k = 1;
+    do {
+        printf("Esquerda (%d)\n", k);
+        k++;
+    } while (k <= casasRainha);
+
+    printf("\n");
+
+    // ==================================
     // Movimento do Cavalo (usando while e for)
     // ==================================
     // O Cavalo se move em "L": 2 casas em uma direção e 1 casa perpendicularmente
