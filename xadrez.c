@@ -71,7 +71,8 @@ int main() {
             }
         }
     }   
-    
 
+    printf("\nFim da Simulação de Movimentos de Xadrez.\n");
+    
     return 0;
 }
