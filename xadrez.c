@@ -45,6 +45,7 @@ int main() {
     // ==================================
     // Movimento da Rainha (usando do-while)
     // ==================================
+    printf("=== Movimento da Rainha ===\n");
     int k = 1;
     do {
         printf("Esquerda (%d)\n", k);
