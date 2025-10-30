@@ -14,6 +14,14 @@ int main() {
     // Rainha: do-while
     // ==================================
 
+    // Quantidade de casas que cada peça pode se mover
+    int casasTorre = 5;
+    int casasBispo = 5;
+    int casasRainha = 8;
+    int casasBaixo = 2; // Movimento do Cavalo na vertical
+    int casasEsquerda = 1; // Movimento do Cavalo na horizontal
+    
+
 
     return 0;
 }
