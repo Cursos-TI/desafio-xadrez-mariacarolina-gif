@@ -60,7 +60,7 @@ int main() {
     printf("=== Movimento do Cavalo ===\n");
 
     // Movimento para baixo (2 casas)
-    for (int linha -= ); linha <= casasBixo; linha++) {
+    for (int linha = 1; linha <= casasBaixo; linha++) {
         printf("Baixo (%d)\n", linha);
 
         // Movimento para esquerda (1 casa)
@@ -73,6 +73,6 @@ int main() {
     }   
 
     printf("\nFim da Simulação de Movimentos de Xadrez.\n");
-    
+
     return 0;
 }
