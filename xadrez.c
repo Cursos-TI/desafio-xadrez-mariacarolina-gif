@@ -24,7 +24,7 @@ int main() {
     // ==================================
     // Movimento da Torre (usando for)
     // ==================================
-    printf("=== Movimento da Torre ===\n");
+    printf("=== Movimento da Torre ♜ ===\n");
     for (int i = 1; i <= casasTorre; i++) { 
         printf("Direita (%d)\n", i);
     }
@@ -34,7 +34,7 @@ int main() {
     // ==================================
     // Movimento do Bispo (usando while)
     // ==================================
-    printf("=== Movimento do Bispo ===\n");
+    printf("=== Movimento do Bispo ♝ ===\n");
     int j = 1;
     while (j <= casasBispo) {
         printf("Cima, Direita (%d)\n", j);
@@ -46,7 +46,7 @@ int main() {
     // ==================================
     // Movimento da Rainha (usando do-while)
     // ==================================
-    printf("=== Movimento da Rainha ===\n");
+    printf("=== Movimento da Rainha ♕ ===\n");
     int k = 1;
     do {
         printf("Esquerda (%d)\n", k);
@@ -59,7 +59,7 @@ int main() {
     // Movimento do Cavalo (usando while e for)
     // ==================================
     // O Cavalo se move em "L": 2 casas em uma direção e 1 casa perpendicularmente
-    printf("=== Movimento do Cavalo ===\n");
+    printf("=== Movimento do Cavalo ♞ ===\n");
 
     // Movimento para baixo (2 casas)
     for (int linha = 1; linha <= casasBaixo; linha++) {
